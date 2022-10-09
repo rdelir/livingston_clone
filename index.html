@@ -1,52 +1,194 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Coming Soon</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<script src="https://kit.fontawesome.com/c43effb596.js" crossorigin="anonymous"></script><style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  background-image:  url("images/art_craft.jpg");
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
 
-.icon {
-  margin: auto;
-  width: 10%;
-}
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
 
-h1 {
-  text-align: center;
-}
-h2 {
-  text-align: center;
-}
-</style>
+	<title>Snapshot HTML CSS Web Template</title>
+<!--
+Snapshot Template
+http://www.templatemo.com/tm-493-snapshot
+
+Zoom Slider
+https://vegas.jaysalvat.com/
+
+Caption Hover Effects
+http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
+-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+  	<link rel="stylesheet" href="css/component.css">
+	
+    <link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/vegas.min.css">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/menu.css">
+
+	<!-- Google web font  -->
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
 </head>
-<body>
+<body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    LivingstonEverAfter
-  </div>
-  <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">LivingstonEverAfter</h1>
-    <h2 class="w3-animate-top">COMING SOON</h2>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">Keep updated</p>
-    <div class="icon">
-    <a href="https://www.instagram.com/livingstoneverafter/?igshid=ZDU1ZDhlY2E%3D" target="_blank"><i class="fa-brands fa-instagram" style="font-size:36px;"></i></a>
-    <!--<a href="" target="_blank"><i class="fa-brands fa-facebook" style="font-size:36px;"></i></a> -->
-    <!--<a href="" target="_blank"><i class="fa-brands fa-tiktok" style="font-size:36px;"></i></a> -->
-  </div>
+
+<!-- Preloader section -->
+
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-pulse"></div>
 </div>
-</div>
+
+
+<!-- Navigation section  -->
+
+<nav role="navigation">
+  <div id="menuToggle">
+   
+    <input type="checkbox" />
+    
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <ul id="menu">
+      <a href="#"><li>Home</li></a>
+      <a href="#"><li>Shop</li></a>
+      <a href="#"><li>Contact</li></a>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- Home section -->
+<!-- About section -->
+
+<section id="about">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="about-thumb">
+          <h1>Our Story</h1>
+          <p>Quisque tempor bibendum dolor at volutpat. Suspendisse venenatis quam sed libero euismod feugiat. In cursus nisi vitae lectus facilisis mollis. Nullam scelerisque, quam nec iaculis vulputate.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 wow fadeInUp about-img" data-wow-delay="0.6s">
+        <img src="images/thanks.jpeg" class="img-responsive img-circle" alt="About">
+      </div>
+
+      <div class="clearfix"></div>
+
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Gallery section -->
+
+<section id="gallery">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-offset-2 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="section-title">
+          <h1>What We Do</h1>
+          <p>Nullam scelerisque, quam nec iaculis vulputate, arcu ligula sollicitudin nisl, ac volutpat erat nulla a arcu.</p>
+        </div>
+      </div>
+
+      <ul class="grid cs-style-4">
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img1.jpg" alt="image 1"></div>
+            <figcaption>
+              <h1>Design Your Cup</h1>
+              <small>Cum sociis natoque penatibus et magnis dis parturient montes.</small>
+              <a href="#">Read More</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img2.jpg" alt="image 2"></div>
+            <figcaption>
+              <h1>Make A Shirt</h1>
+              <small>Suspendisse venenatis quam sed libero euismod feugiat.</small>
+              <a href="#">Details</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img3.jpg" alt="image 3"></div>
+            <figcaption>
+              <h1>Make Your Event Yours</h1>
+              <small>Aenean urna massa, convallis vehicula velit et, dictum pellentesque nisi.</small>
+              <a href="#">Learn More</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img4.jpg" alt="image 4"></div>
+            <figcaption>
+              <h1>Sed ornare</h1>
+              <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+              <a href="#">Full Post</a>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Footer section -->
+
+<footer>
+	<div class="container">
+    
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+            
+                <ul class="social-icon"> 
+                    <li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="0.2s"></a></li>
+                    <li><a href="#" class="fa fa-instagram wow fadeInUp" data-wow-delay="0.8s"></a></li>
+                </ul>
+                
+			</div>
+			
+		</div>
+        
+	</div>
+</footer>
+
+<!-- Back top -->
+<a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+<!-- Javascript  -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/vegas.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/toucheffects.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
 </html>
