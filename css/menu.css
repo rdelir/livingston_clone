@@ -6,7 +6,8 @@
    
    /* make it look decent enough */
    background: #232323;
-   color: #cdcdcd;
+   color:  #cdcdcd;
+   ;
    font-family: "Avenir Next", "Avenir", sans-serif;
  }
  
@@ -65,7 +66,7 @@
    margin-bottom: 5px;
    position: relative;
    
-   background: #cdcdcd;
+   background: #232323;
    border-radius: 3px;
    
    z-index: 1;

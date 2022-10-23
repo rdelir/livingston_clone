@@ -35,6 +35,7 @@ h1,h2,h3,h4 {
 }
 
 h1 {
+  color: rgb(164, 154, 154);
   font-size: 2rem;
   line-height: 3rem;
   letter-spacing: 12px;
@@ -57,7 +58,7 @@ h3 {
 }
 
 p {
-  color: #888;
+  color: rgb(11, 11, 11);
   font-size: 20px;
   letter-spacing: 1px;
   line-height: 34px;
@@ -138,8 +139,8 @@ a:hover, a:active, a:focus {
 #about,
 #gallery,
 #contact {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 200px;
+  padding-bottom: 343px;
   position: relative;
 }
 
@@ -149,7 +150,7 @@ a:hover, a:active, a:focus {
 }
 
 .overlay {
-  background: #593279;
+  background: #CBC3E3;
   opacity: 0.9;
   position: absolute;
   width: 100%;
@@ -182,7 +183,7 @@ a:hover, a:active, a:focus {
 .sk-spinner-pulse {
   width: 60px;
   height: 60px;
-  background-color: #e44c65;
+  background-color: #CBC3E3;
   border-radius: 100%;
   margin: 40px auto;
   -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
@@ -491,7 +492,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #contact, footer {
-  background: #FFD700;
+  background: #CBC3E3;
   color: #ffffff;
 }
 
@@ -597,7 +598,7 @@ footer {
 }
 
 .go-top:hover {
-  background: #e44c65;
+  background: #A020F0;
   color: #ffffff;
 }
 
