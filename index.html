@@ -215,7 +215,23 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
 <script src="assets/js/accordions.js"></script>
 
 
+<script>
 
+  $(function() {
+      var selectedClass = "";
+      $("p").click(function(){
+      selectedClass = $(this).attr("data-rel");
+      $("#portfolio").fadeTo(50, 0.1);
+          $("#portfolio div").not("."+selectedClass).fadeOut();
+      setTimeout(function() {
+        $("."+selectedClass).fadeIn();
+        $("#portfolio").fadeTo(50, 1);
+      }, 500);
+          
+      });
+  });
+
+</script>
 
 </body>
 </html>
